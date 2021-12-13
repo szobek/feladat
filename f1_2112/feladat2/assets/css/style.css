@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#error {
+    background-color: #006633;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    width: 500px;
+    height: 150px;
+    margin: 10px auto;
+    padding-top: 12px;
+}
+#error h2{
+    margin-top: 5px;
+}
+#error p button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 114px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+}
+#error p button:first-child{
+    background-color: #BFBFBF;
+    
+}
+#error p button:first-child:hover{
+    background-color: #353232;
+    
+}
+#error p button:nth-child(2){
+    background-color: #EF3A43;
+}
+#error p button:nth-child(2):hover{
+    background-color: #642124;
+}

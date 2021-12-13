@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+#name label{
+    color: green;
+
+}
+
+#inputs h2{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+#inputs input{
+    border-radius: 30% ;
+}
+#inputs input::placeholder{
+    color: #006633;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
