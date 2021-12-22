@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +11,7 @@
 
 
 #alert{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     width: 1334px;
     height: 120px;
@@ -18,7 +21,11 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
 
+}
+#date{
+    font-size: 20px;
 }
 #alert i {
     border-radius: 50%;
@@ -38,12 +45,30 @@
 }
 
 #alert #text{
-    font-weight: bold;
+    font-size: 28px;
 }
 
-
+#alert .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 #alert i.fa{
     display: block;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#alert .icon-container i.fa:nth-child(1):hover{
+    background-color: darkturquoise;
+}
+#alert .icon-container i.fa:nth-child(2):hover{
+    background-color: darkcyan;
+}
+#alert .icon-container i.fa:nth-child(3):hover{
+    background-color: lightgreen;
+}
+#alert .icon-container i.fa:nth-child(4):hover{
+    background-color: lightseagreen;
 }
 #alert .icon-container{
     display: flex;

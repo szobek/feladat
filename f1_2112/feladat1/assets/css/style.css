@@ -1,25 +1,65 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+.wb{
+        width: 161.56px;
+        background-color: white;
+        display: inline-block;
+}
+.left-triangle{
+    width: 0; 
+  height: 0; 
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #006633;
+      display: inline-block;
+      transform: translateX(-43px)
+}
+.right-triangle{
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid white;
+      display: inline-block;
+      transform: translateX(82px) translateY(-41px);
+}
 #name label{
     color: green;
 
 }
+.nev{
+    transform: translateY(-8px) translateX(-23px);
+    display: inline-block;
 
-#inputs h2{
-    background-color: green;
-    color: white;
-    text-align: center;
 }
-#inputs input{
-    border-radius: 30% ;
+ #inputs input{
+     border-radius: 10px;
+ }
+#inputs h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #006633;
+    color: black;
+    text-align: center;
+    width: 620px;
+    height: 35px;
+    font-size: 24px;
 }
 #inputs input::placeholder{
     color: #006633;
-}
+    padding-left: 10px;
+   }
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+#inputs i.fa{
+    font-size: 20px;
+}
+form input:nth-child(3){
+    margin-bottom: 1rem;
+}

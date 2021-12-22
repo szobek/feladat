@@ -1,7 +1,11 @@
+
 * {
     box-sizing: border-box;
 }
-
+.wrapper{
+    width: 600px;
+    margin: 20px auto;
+}
 #icons{
     display: flex;
     background-color: #363636;
@@ -10,6 +14,7 @@
     color: white;
     font-size: 27px;
     margin: 6rem 3rem;
+    border-radius: 40px;
 }
 #icons i{
     border-radius: 50%;
@@ -17,11 +22,13 @@
     height: 60px;
     padding-top: 15.5px;
     padding-left: 14px;
-    margin-left: 20px;
+}
+#icons div {
+    display: inline-block;
+    width: 90px;
 }
 #icons i.fa-infinity{
     background-color: #55AE3A;
-    transform: translateX(-50px);
 
 }
 
@@ -34,7 +41,6 @@
 #icons #auth{
     background-color: #363636;
     border-radius: 50%;
-    transform: translateX(30px);
     width: 60px;
     height: 60px;
     margin: 0;
